@@ -48,6 +48,6 @@ function init = () => {
       .then((answers) => fs.writeFileSync('ProfessionalREADME.md', writeToFile(answers)))
       .then(() => console.log('Successfully wrote to ProfessionalREADME.md'))
       .catch((err) => console.error(err));
-
+}
 // Function call to initialize app
 init();
