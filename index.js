@@ -10,22 +10,22 @@ const questions = () => {
       {
         type: 'input',
         name: 'title',
-        message: 'What is title?',
+        message: 'What is the title?',
       },
       {
         type: 'input',
         name: 'description',
-        message: 'Where are you from?',
+        message: 'What is this software for?',
       },
       {
         type: 'input',
         name: 'installation',
-        message: 'What is your favorite hobby?',
+        message: 'What commands do you need to run for installation?',
       },
       {
         type: 'list',
         name: 'license',
-        message: 'What is your favorite food?',
+        message: 'What is your license?',
         choices: ['MIT', 'Apache 2.0', 'IBM', 'BSD', `None`]
       },
       {
@@ -36,22 +36,22 @@ const questions = () => {
       {
         type: 'input',
         name: 'email',
-        message: 'Enter your LinkedIn URL.',
+        message: 'Enter your email',
       },
       {
         type: 'input',
         name: 'usage',
-        message: 'Enter your LinkedIn URL.',
+        message: 'What do you plan to use this for?',
       },
       {
         type: 'input',
         name: 'contributing',
-        message: 'Enter your LinkedIn URL.',
+        message: 'Who else contributed?',
       },
       {
         type: 'input',
         name: 'test',
-        message: 'Enter your LinkedIn URL.',
+        message: 'What command do you need to run test?',
       },
     ]);
   };
